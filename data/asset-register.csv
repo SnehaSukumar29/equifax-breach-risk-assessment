@@ -1,0 +1,10 @@
+asset_id,asset_name,asset_type,description,confidentiality,integrity,availability,regulatory_impact,criticality
+A01,Consumer PII Database,Data,"Names, SSNs, DOBs, addresses and driver's licence numbers of ~147.9M US consumers",5,5,2,5,Critical
+A02,Apache Struts Web Application (ACIS),Application,Customer-facing credit dispute portal; confirmed entry point via CVE-2017-5638,4,5,5,4,Critical
+A03,Payment Card Database,Data,Payment card numbers and expiry dates of 209000 US consumers,5,4,2,5,Critical
+A04,Internal Credentials File,Data,Plaintext usernames/passwords in config file on mounted file share; gave access to 48 databases,4,5,3,4,Critical
+A05,SSL/TLS Inspection Appliance (SSLV),Security System,Certificate expired Jan 2016 leaving IDS/IPS ineffective for ~19 months,1,2,5,4,High
+A06,Internal Network,Infrastructure,Lack of segmentation allowed movement from ACIS to 48 unrelated databases,3,4,3,3,High
+A07,Dispute Documents Database,Data,Scanned identity documents and correspondence of 182000 US consumers,4,4,2,4,High
+A08,Employee User Accounts,Identity,Accounts impersonated with stolen credentials to run ~9000 queries undetected,4,3,2,4,High
+A09,Security Certificate Inventory,Operational,300+ certificates expired including 79 on business-critical monitoring devices,2,3,5,3,High
